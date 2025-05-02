@@ -1,0 +1,73 @@
+/* ini untuk tag h1 */
+* {
+  background-color: #faf1e6;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+.lorem1 {
+  color: red;
+  background-color: black;
+  padding: 20px 20px;
+}
+
+.lorem2 {
+  color: aquamarine;
+  background-color: bisque;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-teal {
+  background: teal;
+}
+
+#header h1 {
+  color: brown;
+}
+
+input[type="text"] {
+  background: none;
+  color: cyan;
+  padding: 10px;
+  border: 1px solid cyan;
+}
+
+input[type="email"] {
+  background: none;
+  color: cyan;
+  padding: 10px;
+  border: 1px solid cyan;
+  outline: none;
+}
+
+.btn:hover {
+  padding: 5px;
+  background-color: black;
+  color: red;
+}
+
+.btn:active {
+  background-color: white;
+}
+
+.o::first-line {
+  color: magenta;
+}
+
+.o::after {
+  content: "aku";
+}
+
+li::marker {
+  color: aqua;
+}
+
+.yoi::placeholder {
+  color: red;
+}
