@@ -1,0 +1,101 @@
+/* Reset and basic styling */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Header styling */
+header {
+  position: sticky;
+  background-color: #07efae;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+header .logo h1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #222;
+}
+
+/* Banner */
+.hero {
+  height: 60vh;
+  background-image: url("img/banner.jpg");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+}
+.hero h2 {
+  color: #fff;
+  z-index: 1;
+  padding: 20px 25px;
+  border: 3px solid #fff;
+}
+
+/* Media Sosial */
+.medsos {
+  background-color: #333;
+  padding: 30px 0 0 10px;
+  text-align: center;
+}
+
+.medsos ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.medsos ul li a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.medsos ul li a:hover {
+  color: #07efae;
+}
+
+/* Footer */
+footer {
+  padding: 30px 10%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
